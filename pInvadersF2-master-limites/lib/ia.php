@@ -10,8 +10,8 @@ class ia
 
 
   public function RandomPos() {
-
-
+  $this->columna=rand(0,3);
+  $this->fila=rand(0,3);
   }
 
   //MÉTODOS
